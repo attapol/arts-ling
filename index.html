@@ -1,58 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Linguistics Department</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        .hero {
-            background: url('https://linguistics.mit.edu/wp-content/themes/linguistics/assets/images/hero.jpg') no-repeat center center/cover;
-            color: white;
-            padding: 100px 0;
-            text-align: center;
-        }
-        .section-title {
-            border-bottom: 3px solid #d61a1f;
-            display: inline-block;
-            padding-bottom: 5px;
-        }
-        .footer {
-            background: #333;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
-        /* Enable dropdown menu on hover */
-        .navbar-nav .dropdown:hover .dropdown-menu {
-            display: block;
-            margin-top: 0;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
+
 <body>
 
-<!-- Navbar -->
-<div id="navbar-container">
+    <!-- Navbar -->
+    <div id="navbar-container">
 
-<script>
-    fetch('navbar.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('navbar-container').innerHTML = data);
-</script>
+        <script>
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => document.getElementById('navbar-container').innerHTML = data);
+        </script>
 
-</div>
-
-<!-- Hero Section -->
-<section class="hero">
-    <div class="container">
-        <h1>Welcome to the Linguistics Department</h1>
-        <p class="lead">A world leader in theoretical, experimental, and computational linguistics.</p>
     </div>
-</section>
+    <!-- <img src="pics\chula_pics.JPG" style="width:100%;height:500px;object-fit: cover;"> -->
+    <div class="image-container" style="position: relative; display: inline-block; width: 100%;">
+        <img src="pics/chula_pics.JPG" style="width: 100%; height: 500px; object-fit: cover;">
+        <div class="overlay-text">
+            <div class="main-text">Welcome to the Linguistics Department</div>
+            <div class="subtext">Faculty of Arts, Chulalongkorn University</div>
+        </div>
+    </div>
 
-<!-- News & Events Section -->
-<div class="container my-5">
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero">
+
+        <div class="container">
+            <h1>Chulalongkorn Linguistics Department</h1>
+            <p><i>A world leader in theoretical, experimental, and computational linguistics.</i></p>
+        </div>
+    </section>
+
+
+
+    <div class="container mb-5">
+        <div class="row">
+            <div class="half-box">
+                <a href="programs.html">
+                    <div class="card">
+                    <img src="pics\program.JPG" alt="program" style="width:100%; height:250px; object-fit: cover; padding-bottom: 10px;">
+                    <div class="container">
+                    <h4>Academic Programs</h4></div>
+                    <!-- <p>Information for prospective undergraduate and graduate students</p> --></div>
+                </a>
+            </div>
+            
+
+
+
+
+        <div class="half-box">
+            <a href="research.html">
+                <div class="card"> <img src="pics\research_pics.png" alt="Research"
+                        style="width:100%; height:250px; object-fit: cover;padding-bottom: 10px;">
+                    <div class="container">
+                        <h4>Research</h4>
+                        <!-- <p>Our research database.</p> -->
+                    </div>
+                </div>
+        
+            </a>
+        </div>
+
+
+    <div class="row">
+
+        <div class="quater-box">
+            <a href="course.html">
+                <div class="card"> <img src="pics\course_pics.png" alt="Courses" style="width:100%;height:175px; object-fit: cover;">
+                    <div class="container">
+                        <h4>Courses</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+
+
+        <div class="quater-box">
+            <a href="resources.html">
+                <div class="card"> <img src="pics\resource_pics.png" alt="Resources" style="width:100%;height:175px; object-fit: cover;">
+                    <div class="container">
+                        <h4>Resources</h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="quater-box">
+            <a href="department-member.html">
+                <div class="card"> <img src="pics\people_pics.jpg" alt="People" style="width:100%;height:175px; object-fit: cover;">
+                    <div class="container">
+                        <h4>People<h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+
+        <div class="quater-box">
+            <a href="aboutus.html">
+                <div class="card"> <img src="pics\aboutus_pics.jpg" alt="About Us" style="width:100%;height:175px; object-fit: cover;">
+                    <div class="container">
+                        <h4>About Us<h4>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+
+
+    </div>
+    </div>
+    <!-- News & Events Section -->
+    <!-- <div class="container my-5">
     <div class="row">
         <div class="col-md-6">
             <h2 class="section-title">News</h2>
@@ -71,15 +143,16 @@
             </ul>
         </div>
     </div>
-</div>
+</div> -->
 
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <p>&copy; 2025 Linguistics Department. All rights reserved.</p>
-    </div>
-</footer>
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Linguistics Department. All rights reserved.</p>
+        </div>
+    </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

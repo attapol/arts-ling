@@ -1,0 +1,152 @@
+body {background-color: #f0ece3;color: #5b5b5a;}
+
+h1, h2, h3, h4 {
+  color: #5b5b5a;
+}
+
+
+.hero {
+    /* background: url('https://linguistics.mit.edu/wp-content/themes/linguistics/assets/images/hero.jpg') no-repeat center center/cover; */
+    color: rgb(15, 0, 0);
+    padding: 15px 0px;
+    text-align: left;
+}
+
+.section-title {
+    border-bottom: 3px solid #d61a1f;
+    display: inline-block;
+    /* padding-bottom: 2px; */
+}
+.footer {
+    background: #ffffff;
+    color: #5b5b5a;
+    padding: 10px 0;
+    text-align: center;
+    height: 50px;
+}
+
+
+
+/* Enable dropdown menu on hover */
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+}
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    /* padding: 16px; */
+    margin: 16px;
+    text-align: left;
+    background-color: #f1f1f1;
+  }
+
+.half-box {
+  width: 50%;
+  padding: 0 10px;
+  margin-bottom: 20px;
+}
+
+.half-box a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the same text color as the parent */
+  display: block; /* Make the entire area clickable */
+}
+.quater-box {
+  width: 25%;
+  padding: 0 10px;
+}
+.quater-box a {
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Use the same text color as the parent */
+  display: block; /* Make the entire area clickable */
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3vw;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 5px 5px 1px rgba(31, 31, 31, 0.7);
+  /* background: rgba(252, 252, 252, 0.6); */
+  padding: 1vw 2vw;
+  border-radius: 8px;
+  
+  /* Hidden initially */
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.5s ease;
+}
+
+/* Show text only when hovering over the image container */
+.image-container:hover .overlay-text {
+  opacity: 1;
+  visibility: visible;
+  white-space: nowrap;
+}
+
+.main-text {
+  font-size: 3vw;
+  font-weight: bold;
+}
+
+.subtext {
+  font-size: 2vw;
+  font-weight: normal;
+  margin-top: 0.5vw;
+}
+
+.half-box:hover {
+  opacity: 0.6; 
+  transition: opacity 0.5s ease
+}
+
+.quater-box:hover {
+  opacity: 0.6; 
+  transition: opacity 0.5s ease
+}
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
