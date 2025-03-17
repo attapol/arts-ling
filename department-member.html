@@ -5,37 +5,135 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Linguistics Department</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
 </head>
-
-
 <body>
 
 <!-- Navbar -->
 <div id="navbar-container">
-
-<script>
-    fetch('navbar.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('navbar-container').innerHTML = data);
-</script>
-
+    <script>
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => document.getElementById('navbar-container').innerHTML = data);
+    </script>
 </div>
+
 <div class="container my-5">
-<h1>Faculty members</h1>
-<div class="row">
-    <!-- outline -->
-    <div class="column"></div>
-    <p>Faculty members</p>
-    <p>Staffs</p>
-    <!-- content -->
-    <div class="column"></div>
-  </div>
+    <div class="row">
+        <!-- Sidenav -->
+        <div class="col-md-3">
+            <div class="sidenav">
+                <a href="#department_members">Department Members</a>
+                <a href="#staffs">Staff</a>
+            </div>
+        </div>
+        <!-- Main content -->
+        <div class="col-md-9 main-content">
+            <h1 id="department_members">Department Members</h1>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="pics\Members\Prof_TheerapornR.jpg" class="img-member" alt="Prof_TheerapornR">
+                </div>
+                <div class="col-md-8">
+                    <h4>รองศาสตราจารย์ ดร.ธีราภรณ์ รติธรรมกุล</h4>
+                    <p>Associate Professor Theeraporn Ratitamkul, Ph.D. <br>
+                       Contact :<a href="mailto:theeraporn.r@chula.ac.th">Theeraporn.r@chula.ac.th</a>
+                    </p>
 
+                    <p>Language acquisition, Psycholinguistics, Syntax</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4" >
+                    <img src="pics\Members\Prof_PittayawatP_crop.jpg" class="img-member" alt="Prof_PittayawatP">
+                </div>
+                <div class="col-md-8" >
+                    <h4>รองศาสตราจารย์ ดร.พิทยาวัฒน์ พิทยาภรณ์</h4>
+                    <p>Associate Professor Pittayawat Pittayaporn, Ph.D. <br>
+                      Contact :<a href="mailto:pittayawat.p@chula.ac.th">Pittayawat.p@chula.ac.th</a></p>
+                      <p>Historical linguistics, Phonology, Southeast Asian Linguistics</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="pics\Members\Prof_SujinatJ.JPG" class="img-member" alt="Prof_SujinatJ">
+                </div>
+                <div class="col-md-8">
+                    <h4>ผู้ช่วยศาสตราจารย์ ดร.ศุจิณัฐ จิตวิริยนนท์</h4>
+                    <p>Assistant Professor Sujinat Jitwiriyanont, Ph.D.<br>
+                        Contact :<a href="mailto:sujinat.j@gmail.com">Sujinat.j@gmail.com</a></p>
+                        <p>Phonetics, Acoustic phonetics, Language and Marketing</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="pics\Members\Prof_PavadeeS_crop.jpg" class="img-member" alt="Prof_PavadeeS">
+                </div>
+                <div class="col-md-8">
+                    <h4>ผู้ช่วยศาสตราจารย์ ดร.ภาวดี สายสุวรรณ</h4>
+                    <p>Assistant Professor Pavadee Saisuwan, Ph.D.<br>
+                        Contact :<a href="mailto:pavadee.s@chula.ac.th">Pavadee.s@chula.ac.th</a></p>
+                    <p>Sociolinguistics, Language and gender/sexuality, Linguistic landscape, Language variation</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="pics\Members\Prof_NattanunC.jpeg" class="img-member" alt="Prof_NattanunC">
+                </div>
+                <div class="col-md-8">
+                    <h4>ผู้ช่วยศาสตราจารย์ ดร.ณัฏฐนันท์ จันทร์เจ้าฉาย</h4>
+                    <p>Assistant Professor Nattanun Chanchaochai, Ph.D.<br>
+                        Contact :<a href="mailto:nattanun.c@chula.ac.th">Nattanun.c@chula.ac.th</a></p>
+                    <p>Clinical linguistics, Psycholinguistics, Semantics, Pragmatics</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="pics\Members\Prof_AttapolT.jpg" class="img-member" alt="Prof_AttapolT">
+                </div>
+                <div class="col-md-8">
+                    <h4>รองศาสตราจารย์ ดร.อรรถพล ธำรงรัตนฤทธิ์</h4>
+                    <p>Associate Professor Attapol Rutherford, Ph.D.<br>
+                        Contact :<a href="mailto:attapol.t@chula.ac.th">Attapol.t@chula.ac.th</a></p>
+                    <p>Natural Language Processing</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="pics\Members\Prof_JakapunT.jpg" class="img-member" alt="Prof_JakapunT">
+                </div>
+                <div class="col-md-8">
+                    <h4>อ.ดร. จักรพันธ์ เตไชยา</h4>
+                    <p>Professor Jakapun Tachaiya, Ph.D.<br>
+                        Contact :<a href="mailto:jakapun.T@chula.ac.th">Jakapun.T@chula.ac.th</a></p>
+                    <p>Natural Language Processing</p>
+                </div>
+            </div>
 
-
+            <h1 id="staffs">Staffs</h1>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="pics\Members\Staff_PattamaH.png" class="img-member" alt="Staff_PattamaH">
+                </div>
+                <div class="col-md-8">
+                    <h4>ปัทมา ฮอว์กินส์</h4>
+                    <p>Pattama Hawkins<br>
+                        Contact :<a href="mailto:chula.ling@gmail.com">Chula.ling@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-4">
+                    <img src="pics\Members\Staff_NattananSa_crop.jpg" class="img-member" alt="Staff_NattananSa">
+                </div>
+                <div class="col-md-8">
+                    <h4>นัทธนันท์ สวัสดิวงศ์</h4>
+                    <p>Nattanan Sawatdiwong.<br>
+                        Contact :<a href="mailto:nattanan.sa@chula.ac.th">Nattanan.sa@chula.ac.th</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-
 
 <!-- Footer -->
 <footer class="footer">

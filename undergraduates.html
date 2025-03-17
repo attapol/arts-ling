@@ -1,34 +1,836 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Linguistics Department</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
 <body>
 
-<!-- Navbar -->
-<div id="navbar-container">
+    <!-- Navbar -->
+    <div id="navbar-container">
 
-<script>
-    fetch('navbar.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('navbar-container').innerHTML = data);
-</script>
+        <script>
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => document.getElementById('navbar-container').innerHTML = data);
+        </script>
 
-</div>
-
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <p>&copy; 2025 Linguistics Department. All rights reserved.</p>
     </div>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="container my-5">
+        <div class="row">
+            <!-- Sidenav -->
+            <div class="col-md-3">
+                <div class="sidenav">
+                    <a href="#LangTech">Major in LangTech</a>
+                    
+                    <a href="#Minor">Minor in Linguistics</a>
+                </div>
+            </div>
+
+
+            <!-- Main content -->
+            <div class="col-md-9 main-content">
+                <h1>Undergraduate Programs</h1>
+                <h2 id="LangTech">Major in LangTech | วิชาเอกเทคโนโลยีภาษาและสารสนเทศ</h2>
+
+                <a
+                    href="https://drive.google.com/file/d/1EMIIJqGb_ImdGNPfN1ZwH5gV4baBzHk5/view?usp=drive_link">โครงสร้างหลักสูตรสาขาวิชาเทคโนโลยีภาษาและสารสนเทศ</a>
+                <h3 id="Structure">โครงสร้างหลักสูตร</h3>
+                <p>ภาควิชาบรรณารักษศาสตร์และภาควิชาภาษาศาสตร์เปิดสอนวิชาเฉพาะสาขาวิชาเทคโนโลยีภาษาและสารสนเทศแบบวิชาเอก-โท
+                    สำหรับนิสิตที่เลือกเรียนเป็นวิชาเอก ดังนี้</p>
+                <table>
+                    <tr>
+                        <th>แบบวิชา</th>
+                        <th>กลุ่มวิชา</th>
+                        <th>รายละเอียด</th>
+                        <th>หน่วยกิต</th>
+                        <th>หน่วยกิตรวม</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="5">วิชาเอก</td>
+                        <td rowspan="1">กลุ่มวิชาพื้นฐาน</td>
+                        <td>วิชาบังคับ</td>
+                        <td>18 หน่วยกิต</td>
+                        <td>18 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">กลุ่มวิชาข้อกำหนดเฉพาะ</td>
+                        <td>วิชาบังคับ</td>
+                        <td>6 หน่วยกิต</td>
+                        <td rowspan="2">12 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>วิชาเลือก</td>
+                        <td>6 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">กลุ่มวิชาเชี่ยวชาญ</td>
+                        <td>วิชาบังคับเลือก</td>
+                        <td>9 หน่วยกิต</td>
+                        <td rowspan="2">18 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>วิชาเลือก</td>
+                        <td>9 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>วิชาโท</td>
+                        <td colspan="2">
+                            นิสิตเอกสาขาวิชาเทคโนโลยีภาษาและสารสนเทศเลือกเรียนวิชาโทสาขาอื่นในคณะหรือนอกคณะได้<br>
+                            <strong>ยกเว้น</strong><br>
+                            1. สาขาวิชาโทภาษาศาสตร์<br>
+                            2. สาขาวิชาโทสารเทศศึกษา<br>
+                            3. สาขาวิชาโทมนุษยศาสตร์ดิจิทัล
+                        </td>
+                        <td>18 หน่วยกิต</td>
+                        <td>18 หน่วยกิต</td>
+                    </tr>
+                </table>
+
+                <h3 id="Course">วิชาเอก</h3>
+                <h4>กลุ่มวิชาพื้นฐาน</h4>
+                <h5>กลุ่มวิชาพื้นฐาน : วิชาบังคับ</h5>
+                <p>นิสิตต้องเรียนวิชาบังคับในกลุ่มวิชาพื้นฐาน ทั้งหมด 18 หน่วยกิต ประกอบไปด้วย</p>
+
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2206333</td>
+                        <td>การออกแบบระบบสำหรับงานสารสนเทศ</td>
+                        <td>System Design for Information Work</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209304</td>
+                        <td>ระบบไวยากรณ์</td>
+                        <td>Grammatical System</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209305</td>
+                        <td>ความหมายในภาษา</td>
+                        <td>Meaning in Language</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209308</td>
+                        <td>ระบบเสียง</td>
+                        <td>Sound System</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209368</td>
+                        <td>การวิเคราะห์ภาษาไทยตามแนวภาษาศาสตร์</td>
+                        <td>Linguistic Analysis of Thai</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209372</td>
+                        <td>ภาษาศาสตร์คอมพิวเตอร์เบื้องต้น</td>
+                        <td>Introduction to Computational Linguistics</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                </table>
+
+                <p><em>*สามารถอ่านรายละเอียดของแต่ละรายวิชาได้ที่หน้ารายวิชา</em></p>
+
+                <h4>กลุ่มวิชาข้อกำหนดเฉพาะ</h4>
+                <h5>กลุ่มวิชาข้อกำหนดเฉพาะ : วิชาบังคับ</h5>
+                <p>นิสิตต้องเรียนวิชาบังคับในกลุ่มวิชาข้อกำหนดเฉพาะ ทั้งหมด 6 หน่วยกิต ประกอบไปด้วย</p>
+
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2206366</td>
+                        <td>สถิติเพื่อการวิจัยด้านมนุษยศาสตร์</td>
+                        <td>Statistics for Humanities Research</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206385</td>
+                        <td>การจัดการฐานข้อมูลสำหรับมนุษยศาสตร์</td>
+                        <td>Database Management for the Humanities</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                </table>
+
+                <p><em>*สามารถอ่านรายละเอียดของแต่ละรายวิชาได้ที่หน้ารายวิชา</em></p>
+
+                <h5>กลุ่มวิชาข้อกำหนดเฉพาะ : วิชาเลือก</h5>
+                <p>นิสิตต้องเรียนวิชาเลือกในกลุ่มวิชาข้อกำหนดเฉพาะ จำนวน 6 หน่วยกิต โดยให้นิสิตเลือกจากรายวิชาต่อไปนี้
+                </p>
+
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2206491</td>
+                        <td>โครงการสารสนเทศศึกษา 1</td>
+                        <td>Project in Information Studies I</td>
+                        <td>3 (1-6-2)</td>
+                    </tr>
+                    <tr>
+                        <td>2206492</td>
+                        <td>โครงการสารสนเทศศึกษา 2</td>
+                        <td>Project in Information Studies II</td>
+                        <td>3 (1-6-2)</td>
+                    </tr>
+                    <tr>
+                        <td>2209491</td>
+                        <td>โครงการเทคโนโลยีภาษา 1</td>
+                        <td>Project in Language Technology I</td>
+                        <td>3 (1-6-2)</td>
+                    </tr>
+                    <tr>
+                        <td>2209492</td>
+                        <td>โครงการเทคโนโลยีภาษา 2</td>
+                        <td>Project in Language Technology II</td>
+                        <td>3 (1-6-2)</td>
+                    </tr>
+                </table>
+
+                <p><em>*สามารถอ่านรายละเอียดของแต่ละรายวิชาได้ที่หน้ารายวิชา</em></p>
+
+
+
+                <h4>กลุ่มวิชาเชี่ยวชาญ</h4>
+                <h5>กลุ่มวิชาเชี่ยวชาญ : วิชาบังคับเลือก</h5>
+                <p>นิสิตต้องเรียนวิชาบังคับเลือกในกลุ่มวิชาเชี่ยวชาญ จำนวน 9 หน่วยกิต โดยให้นิสิตเลือกจากรายวิชาต่อไปนี้
+                </p>
+
+
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2200158</td>
+                        <td>ภาษาศาสตร์ประยุกต์เพื่อการสอนภาษาไทยในฐานะภาษาต่างประเทศ</td>
+                        <td>Applied Linguistics for Teaching Thai as a Foreign Language</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206216</td>
+                        <td>ผู้ใช้และบริการสารสนเทศ</td>
+                        <td>Information Users and Services</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206285</td>
+                        <td>การแปลงทรัพยากรสารสนเทศให้อยู่ในรูปดิจิทัล</td>
+                        <td>Digitization of Information Resources</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206289</td>
+                        <td>การสื่อสารข้อมูลและเครือข่ายในงานสารสนเทศ</td>
+                        <td>Data Communications and Networking in Information work</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206290</td>
+                        <td>พื้นฐานมนุษยศาสตร์ดิจิทัล</td>
+                        <td>Introduction to Digital Humanities</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206356</td>
+                        <td>การจัดการและจัดระบบทรัพยากรสารสนเทศห้องสมุด</td>
+                        <td>Library Collection Management and Organization</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206384</td>
+                        <td>การจัดการสารสนเทศในสำนักงาน</td>
+                        <td>Office Information Management</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206386</td>
+                        <td>การออกแบบส่วนต่อประสานกับผู้ใช้ในงานสารสนเทศ</td>
+                        <td>User Interface Design in Information Work</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206415</td>
+                        <td>การตลาดและการประชาสัมพันธ์สำหรับองค์กรสารสนเทศ</td>
+                        <td>Marketing and Public Relations for Information Organizations</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206442</td>
+                        <td>เครื่องมือสำหรับมนุษยศาสตร์ดิจิทัล</td>
+                        <td>Tools for Digital Humanities</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2206489</td>
+                        <td>การศึกษาอิสระ</td>
+                        <td>Independent Study</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209309</td>
+                        <td>การแปรและการเปลี่ยนแปลงในภาษา</td>
+                        <td>Variation and Change in Language</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209344</td>
+                        <td>ภาษาศาสตร์กับการแปล</td>
+                        <td>Linguistics and Translation</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209369</td>
+                        <td>ภาษาตระกูลขร้า-ไท</td>
+                        <td>Kra-Dai Languages</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209370</td>
+                        <td>ภาษาและความคิด</td>
+                        <td>Language and Mind</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209371</td>
+                        <td>ภาษาศาสตร์ภาษาโรมานซ์เบื้องต้น</td>
+                        <td>Introduction to Romance Linguistics</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209373</td>
+                        <td>ภาษากับวัฒนธรรม</td>
+                        <td>Language and Culture</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209376</td>
+                        <td>คลังข้อมูลภาษา</td>
+                        <td>Language Corpora</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209377</td>
+                        <td>ภาษาศาสตร์ภาคสนาม</td>
+                        <td>Field Linguistics</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209378</td>
+                        <td>ภาษากับการสื่อสารทางการตลาด</td>
+                        <td>Language and Marketing Communications</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209379</td>
+                        <td>ภาษากับเพศ</td>
+                        <td>Language and Sex</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209381</td>
+                        <td>เทคโนโลยีวัจนะ</td>
+                        <td>Speech Technology</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209382</td>
+                        <td>การแปลภาษาด้วยคอมพิวเตอร์</td>
+                        <td>Machine Translation</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209384</td>
+                        <td>การเข้าใจภาษาธรรมชาติ</td>
+                        <td>Natural Language Understanding</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209390</td>
+                        <td>เรื่องคัดเฉพาะทางเทคโนโลยีภาษา</td>
+                        <td>Selected Topics in Language Technology</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209607</td>
+                        <td>ภาษาศาสตร์เชิงคลินิก</td>
+                        <td>Clinical Linguistics</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                </table>
+
+                <p><em>*สามารถอ่านรายละเอียดของแต่ละรายวิชาได้ที่หน้ารายวิชา</em></p>
+                <h5>กลุ่มวิชาเชี่ยวชาญ : วิชาเลือก</h5>
+                <p>นิสิตต้องเรียนวิชาเลือกในกลุ่มวิชาเชี่ยวชาญ จำนวน 9 หน่วยกิต
+                    นิสิตสามารถเลือกเรียนจากรายวิชาใดรายวิชาหนึ่งต่อไปนี้</p>
+                <ol>
+                    <li>กลุ่มวิชาบังคับเลือกในกลุ่มวิชาเชี่ยวชาญ</li>
+                    <li>รายวิชาอื่น ๆ ในระดับปริญญาตรี หรือระดับบัณฑิตศึกษาในจุฬาลงกรณ์มหาวิทยาลัยได้
+                        โดยผ่านความเห็นชอบของคณะกรรมการบริหารหลักสูตรอักษรศาสตรบัณฑิต สาขาวิชาเทคโนโลยีภาษาและสารสนเทศ
+                    </li>
+                </ol>
+                <h3 id="Plan">แผนการศึกษา</h3>
+                <table>
+                    <tr>
+                        <th>ปีการศึกษา</th>
+                        <th>รหัสรายวิชา</th>
+                        <th>รายวิชา</th>
+                        <th>หน่วยกิต</th>
+                        <th>หน่วยกิตรวม</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">ปีที่ 2/ภาคต้น</td>
+                        <td>2206333</td>
+                        <td>การออกแบบระบบสำหรับงานสารสนเทศ</td>
+                        <td>3</td>
+                        <td rowspan="3">9 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>2209308</td>
+                        <td>ระบบเสียง</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2209304</td>
+                        <td>ระบบไวยากรณ์</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">ปีที่ 2/ภาคปลาย</td>
+                        <td>2206385</td>
+                        <td>การจัดการฐานข้อมูลสำหรับมนุษยศาสตร์</td>
+                        <td>3</td>
+                        <td rowspan="3">9 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>2209305</td>
+                        <td>ความหมายในภาษา</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>2209372</td>
+                        <td>ภาษาศาสตร์คอมพิวเตอร์เบื้องต้น</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">ปีที่ 3/ภาคต้น</td>
+                        <td>2206366</td>
+                        <td>สถิติเพื่อการวิจัยด้านมนุษยศาสตร์</td>
+                        <td>3</td>
+                        <td rowspan="3">12 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>2209368</td>
+                        <td>การวิเคราะห์ภาษาไทยตามแนวภาษาศาสตร์</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>XXXXXXX</td>
+                        <td>วิชาเลือกกลุ่มวิชาเชี่ยวชาญ</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">ปีที่ 3/ภาคปลาย</td>
+                        <td>XXXXXXX</td>
+                        <td>วิชาเลือกกลุ่มวิชาเชี่ยวชาญ</td>
+                        <td>9</td>
+                        <td rowspan="2">15 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>XXXXXXX</td>
+                        <td>วิชาโท</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="3">ปีที่ 4/ภาคต้น</td>
+                        <td>XXXXXXX</td>
+                        <td>วิชาเลือกกลุ่มวิชาเชี่ยวชาญ</td>
+                        <td>3</td>
+                        <td rowspan="3">12 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>XXXXXXX</td>
+                        <td>วิชาบังคับเลือกกลุ่มวิชาข้อกำหนดเฉพาะ</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>XXXXXXX</td>
+                        <td>วิชาโท</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">ปีที่ 4/ภาคปลาย</td>
+                        <td>XXXXXXX</td>
+                        <td>วิชาบังคับเลือกกลุ่มวิชาข้อกำหนดเฉพาะ</td>
+                        <td>3</td>
+                        <td rowspan="2">9 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>XXXXXXX</td>
+                        <td>วิชาโท</td>
+                        <td>6</td>
+                    </tr>
+                </table>
+                <h1 id="Minor">Minor in Linguistics | วิชาโทภาษาศาสตร์</h1>
+                <p><a href="https://drive.google.com/file/d/1EZUJAl4YnGawiww38yp7JoJ8VuLD6-v9/view?usp=drive_link">โครงสร้างหลักสูตรวิชาโทภาษาศาสตร์ปี 2566</a></p>
+                
+                <h2 id="Minor_structure">โครงสร้างหลักสูตร</h2>
+                <p>ภาควิชาภาษาศาสตร์เปิดสอนวิชาโท สาขาวิชาภาษาศาสตร์ สำหรับนิสิตอักษรศาสตร์ที่ไม่ได้เรียนวิชาเอกเทคโนโลยีภาษาและสารสนเทศ และนิสิตนอกคณะที่เลือกเรียนเป็นวิชาโท ดังนี้</p>
+                
+                <table>
+                    <tr>
+                        <th>โปรแกรม</th>
+                        <th>รายวิชา</th>
+                        <th>หน่วยกิต</th>
+                        <th>หน่วยกิตรวม</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">โปรแกรมปกติสำหรับนิสิตในคณะ</td>
+                        <td>วิชาบังคับเลือก</td>
+                        <td>3 หน่วยกิต</td>
+                        <td rowspan="2">18 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>วิชาเลือก</td>
+                        <td>15 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">โปรแกรมปกติสำหรับนิสิตนอกคณะ</td>
+                        <td>วิชาบังคับ</td>
+                        <td>3 หน่วยกิต</td>
+                        <td rowspan="2">18 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>วิชาเลือก</td>
+                        <td>15 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">โปรแกรมเกียรตินิยม</td>
+                        <td>เอกัตศึกษา</td>
+                        <td>12 หน่วยกิต</td>
+                        <td rowspan="2">20 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>ปริญญานิพนธ์</td>
+                        <td>8 หน่วยกิต</td>
+                    </tr>
+                </table>
+                
+                <h2 id="Minor_Program">โปรแกรม</h2>
+                <h3>โปรแกรมปกติสำหรับนิสิตในคณะ</h3>
+                
+                <h4>วิชาบังคับเลือก</h4>
+                <p>นิสิตต้องเรียนวิชาบังคับเลือกจำนวน 3 หน่วยกิต โดยให้นิสิตเลือกจากรายวิชาต่อไปนี้</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209304</td>
+                        <td>ระบบไวยากรณ์</td>
+                        <td>Grammatical System</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209305</td>
+                        <td>ความหมายในภาษา</td>
+                        <td>Meaning in Language</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209308</td>
+                        <td>ระบบเสียง</td>
+                        <td>Sound System</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                </table>
+                
+                <p><em>*สามารถอ่านรายละเอียดของแต่ละรายวิชาได้ที่หน้ารายวิชา</em></p>
+                
+                <h4>วิชาเลือก</h4>
+                <p>นิสิตต้องเรียนวิชาเลือกจำนวน 15 หน่วยกิต โดยสามารถเลือกเรียนจากรายวิชาต่อไปนี้</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209261</td>
+                        <td>พื้นฐานการเขียนโปรแกรมเพื่อการประมวลผลภาษาธรรมชาติ</td>
+                        <td>Basic Programming for Natural Language Processing</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209309</td>
+                        <td>การแปรและการเปลี่ยนแปลงในภาษา</td>
+                        <td>Variation and Change in Language</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209344</td>
+                        <td>ภาษาศาสตร์กับการแปล</td>
+                        <td>Linguistics and Translation</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209369</td>
+                        <td>ภาษาตระกูลขร้า-ไท</td>
+                        <td>Kra-Dai Languages</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                    <tr>
+                        <td>2209370</td>
+                        <td>ภาษาและความคิด</td>
+                        <td>Language and Mind</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                </table>
+                
+                <h2 id="Minor_plan">แผนการศึกษา</h2>
+                <table>
+                    <tr>
+                        <th>ปีการศึกษา</th>
+                        <th>รหัสรายวิชา</th>
+                        <th>รายวิชา</th>
+                        <th>หน่วยกิต</th>
+                        <th>หน่วยกิตรวม</th>
+                    </tr>
+                    <tr>
+                        <td>ปีที่ 2/ภาคต้น</td>
+                        <td>XXXXXXX</td>
+                        <td>วิชาบังคับเลือก</td>
+                        <td>3</td>
+                        <td>3 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>ปีที่ 2/ภาคปลาย</td>
+                        <td>XXXXXXX</td>
+                        <td>วิชาเลือก</td>
+                        <td>3</td>
+                        <td>3 หน่วยกิต</td>
+                    </tr>
+                </table>
+                
+                <h3 id="Other_faculty">โปรแกรมปกติสำหรับนิสิตนอกคณะ</h3>
+                
+                <h4>วิชาบังคับ</h4>
+                <p>นิสิตนอกคณะจะต้องเรียนรายวิชาบังคับจำนวน 3 หน่วยกิตดังนี้</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209261</td>
+                        <td>ภาษาทัศนา</td>
+                        <td>Introduction to Language</td>
+                        <td>3 (3-0-6)</td>
+                    </tr>
+                </table>
+                                
+
+                <h2>โปรแกรมเกียรตินิยม</h2>
+
+                <h3>รายละเอียด</h3>
+                <p>ผู้ที่เข้าศึกษาในโปรแกรมเกียรตินิยมจะต้องผ่านการเรียนในชั้นปีที่ 1 ด้วยแต้มเฉลี่ยสะสมไม่ต่ำกว่า 3.75 และเรียนรายวิชาในหลักสูตรมาแล้วไม่น้อยกว่า 36 หน่วยกิต</p>
+                <p>กรณีได้แต้มเฉลี่ยสะสมต่ำกว่า 3.75 แต่สูงกว่าเกณฑ์ของมหาวิทยาลัย คือ 3.50 ให้อยู่ในดุลยพินิจของคณะกรรมการบริหารคณะอักษรศาสตร์</p>
+                <p>นิสิตโปรแกรมเกียรตินิยมต้องสอบได้แต้มเฉลี่ยสะสมไม่ต่ำกว่า 3.60 หากไม่สามารถสอบได้แต้มเฉลี่ยสะสม 3.60 ติดต่อกัน 2 ภาคการศึกษา ต้องย้ายไปเรียนโปรแกรมปกติ</p>
+                
+                <h3>เอกัตศึกษา</h3>
+                <p>นิสิตโปรแกรมเกียรตินิยมจะต้องเรียนรายวิชาเอกัตศึกษา หรือรายวิชาระดับบัณฑิตศึกษาโดยความเห็นชอบคณะกรรมการบริหารหลักสูตรอักษรศาสตรบัณฑิต สาขาวิชาโทภาษาศาสตร์ จำนวน 12 หน่วยกิต</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209591</td>
+                        <td>เอกัตศึกษา 1</td>
+                        <td>Independent Study I</td>
+                        <td>3 (0-9-0)</td>
+                    </tr>
+                    <tr>
+                        <td>2209592</td>
+                        <td>เอกัตศึกษา 2</td>
+                        <td>Independent Study II</td>
+                        <td>3 (0-9-0)</td>
+                    </tr>
+                    <tr>
+                        <td>2209593</td>
+                        <td>เอกัตศึกษา 3</td>
+                        <td>Independent Study III</td>
+                        <td>3 (0-9-0)</td>
+                    </tr>
+                    <tr>
+                        <td>2209594</td>
+                        <td>เอกัตศึกษา 4</td>
+                        <td>Independent Study IV</td>
+                        <td>3 (0-9-0)</td>
+                    </tr>
+                </table>
+                
+                <h3>ปริญญานิพนธ์</h3>
+                <p>นิสิตโปรแกรมเกียรตินิยมจะต้องทำปริญญานิพนธ์ โดยแบ่งเป็น 8 หน่วยกิตดังนี้</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209597</td>
+                        <td>ปริญญานิพนธ์ 1</td>
+                        <td>Senior Project I</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>2209598</td>
+                        <td>ปริญญานิพนธ์ 2</td>
+                        <td>Senior Project II</td>
+                        <td>4</td>
+                    </tr>
+                </table>
+                
+                <h3>แผนการศึกษา</h3>
+                
+                <table>
+                    <tr>
+                        <th>ปีการศึกษา</th>
+                        <th>รหัสรายวิชา</th>
+                        <th>รายวิชา</th>
+                        <th>หน่วยกิต</th>
+                        <th>หน่วยกิตรวม</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">ปีที่ 2/ภาคต้น</td>
+                        <td>2209591</td>
+                        <td>เอกัตศึกษา 1</td>
+                        <td>3</td>
+                        <td rowspan="2">3 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>XXXXXXX</td>
+                        <td>วิชาระดับบัณฑิตศึกษา</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">ปีที่ 2/ภาคปลาย</td>
+                        <td>2209592</td>
+                        <td>เอกัตศึกษา 2</td>
+                        <td>3</td>
+                        <td rowspan="2">3 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>XXXXXXX</td>
+                        <td>วิชาระดับบัณฑิตศึกษา</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">ปีที่ 3/ภาคต้น</td>
+                        <td>2209593</td>
+                        <td>เอกัตศึกษา 3</td>
+                        <td>3</td>
+                        <td rowspan="2">3 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>XXXXXXX</td>
+                        <td>วิชาระดับบัณฑิตศึกษา</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">ปีที่ 3/ภาคปลาย</td>
+                        <td>2209594</td>
+                        <td>เอกัตศึกษา 4</td>
+                        <td>3</td>
+                        <td rowspan="2">3 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>XXXXXXX</td>
+                        <td>วิชาระดับบัณฑิตศึกษา</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>ปีที่ 4/ภาคต้น</td>
+                        <td>2209597</td>
+                        <td>ปริญญานิพนธ์ 1</td>
+                        <td>4</td>
+                        <td>4 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>ปีที่ 4/ภาคปลาย</td>
+                        <td>2209598</td>
+                        <td>ปริญญานิพนธ์ 2</td>
+                        <td>4</td>
+                        <td>4 หน่วยกิต</td>
+                    </tr>
+                </table>
+                
+
+
+
+
+
+
+
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Linguistics Department. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>

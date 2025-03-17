@@ -1,34 +1,580 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Linguistics Department</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 
 <body>
 
-<!-- Navbar -->
-<div id="navbar-container">
+    <!-- Navbar -->
+    <div id="navbar-container">
 
-<script>
-    fetch('navbar.html')
-        .then(response => response.text())
-        .then(data => document.getElementById('navbar-container').innerHTML = data);
-</script>
+        <script>
+            fetch('navbar.html')
+                .then(response => response.text())
+                .then(data => document.getElementById('navbar-container').innerHTML = data);
+        </script>
 
-</div>
-
-<!-- Footer -->
-<footer class="footer">
-    <div class="container">
-        <p>&copy; 2025 Linguistics Department. All rights reserved.</p>
     </div>
-</footer>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="container my-5">
+        <div class="row">
+            <!-- Sidenav -->
+            <div class="col-md-3">
+                <div class="sidenav">
+                    <a href="#Structure">โครงสร้างหลักสูตร</a>
+                    <a href="#Course">รายวิชา</a>
+                    <a href="#Plan">แผนการศึกษา</a>
+                </div>
+            </div>
+
+
+            <!-- Main content -->
+            <div class="col-md-9 main-content">
+                <h1>Master program | หลักสูตรปริญญาโท</h1>
+                <p><a href="https://drive.google.com/file/d/1vrdL9eYJhhI4KrXNo5PUMHmkWC429VTL/view?usp=sharing">โครงสร้างหลักสูตรและรายวิชาภาษาศาสตร์หลักสูตรปริญญาโทปี 2568</a></p>
+                
+                <h2 id="Structure">โครงสร้างหลักสูตร</h2>
+                <p>จำนวนหน่วยกิตตลอดหลักสูตรจำนวน 38 หน่วยกิต ระยะเวลาการศึกษาตามแผนการศึกษาตามจำนวน 4 ภาคการศึกษา</p>
+                
+                <table>
+                    <tr>
+                        <th></th>
+                        <th>แผน 1 แบบวิชาการ (วิทยานิพนธ์อย่างเดียว)</th>
+                        <th>แผน 1 แบบวิชาการ (ศึกษารายวิชาและทำวิทยานิพนธ์)</th>
+                        <th>แผน 2 แบบวิชาชีพ</th>
+                    </tr>
+                    <tr>
+                        <td>จำนวนหน่วยกิตตลอดหลักสูตร</td>
+                        <td>36</td>
+                        <td>36</td>
+                        <td>36</td>
+                    </tr>
+                    <tr>
+                        <td>จำนวนหน่วยกิตรายวิชาเรียน</td>
+                        <td>-</td>
+                        <td>24</td>
+                        <td>30</td>
+                    </tr>
+                    <tr>
+                        <td>รายวิชาบังคับ</td>
+                        <td>-</td>
+                        <td>6</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>รายวิชาบังคับเลือก</td>
+                        <td>-</td>
+                        <td>9</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>รายวิชาเลือก</td>
+                        <td>-</td>
+                        <td>9</td>
+                        <td>15</td>
+                    </tr>
+                    <tr>
+                        <td>จำนวนหน่วยกิตวิทยานิพนธ์</td>
+                        <td>36</td>
+                        <td>12</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>จำนวนหน่วยกิตการค้นคว้าอิสระ</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>6</td>
+                    </tr>
+                </table>
+                
+                <h2 id="Course">รายวิชา</h2>
+                <h3>รายวิชาบังคับ</h3>
+                <p>นิสิตแผน 1 แบบวิชาการ (ศึกษารายวิชาและทำวิทยานิพนธ์) และนิสิตแผน 2 แบบวิชาชีพ ต้องเรียนวิชาบังคับ จำนวน 6 หน่วยกิต ดังนี้</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209511</td>
+                        <td>สัทวิทยา</td>
+                        <td>Phonology</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209521</td>
+                        <td>วากยสัมพันธ์</td>
+                        <td>Syntax</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                </table>
+                
+                <h3>รายวิชาบังคับเลือก</h3>
+                <p>นิสิตแผน 1 แบบวิชาการ (ศึกษารายวิชาและทำวิทยานิพนธ์) และนิสิตแผน 2 แบบวิชาชีพ ต้องเรียนวิชาบังคับเลือก จำนวน 9 หน่วยกิต โดยสามารถเลือกได้จากรายวิชาดังนี้</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209501</td>
+                        <td>สัทศาสตร์</td>
+                        <td>Phonetics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209531</td>
+                        <td>อรรถศาสตร์</td>
+                        <td>Semantics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209611</td>
+                        <td>ภาษาศาสตร์เชิงประวัติ</td>
+                        <td>Historical Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209620</td>
+                        <td>ภาษาศาสตร์สังคม</td>
+                        <td>Sociolinguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209625</td>
+                        <td>ภาษาศาสตร์จิตวิทยา</td>
+                        <td>Psycholinguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209670</td>
+                        <td>ภาษาศาสตร์คอมพิวเตอร์</td>
+                        <td>Computational Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                </table>
+                
+
+                <h2>รายวิชาเลือก</h2>
+                <p>นิสิตแผน 1 แบบวิชาการ (ศึกษารายวิชาและทำวิทยานิพนธ์) จะต้องเลือกเรียนรายวิชาเลือกจำนวน 9 หน่วยกิต</p>
+                <p>นิสิตแผน 2 แบบวิชาชีพ จะต้องเลือกเรียนรายวิชาเลือกจำนวน 15 หน่วยกิต โดยสามารถเลือกได้จากรายวิชาดังต่อไปนี้</p>
+                
+                <ul>
+                    <li>*หากลงทะเบียนเรียนรายวิชาบังคับเลือกเกินจำนวนหน่วยกิตที่กำหนด สามารถนับรายวิชาบังคับเลือกที่เกินมาเป็นรายวิชาเลือกได้</li>
+                    <li>*นิสิตสามารถเรียนรายวิชาระดับบัณฑิตศึกษาที่เปิดสอนในภาควิชาภาษาศาสตร์ ภาควิชาอื่น ๆ ของคณะอักษรศาสตร์หรือคณะอื่น ๆ ในจุฬาลงกรณ์มหาวิทยาลัยเป็นวิชาเลือกได้ โดยผ่านความเห็นชอบจากคณะกรรมการบริหารหลักสูตร</li>
+                </ul>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209605</td>
+                        <td>ปรากฏการณ์ทางสัทวิทยาในภาษาไทย</td>
+                        <td>Phonological Phenomena in Thai</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209607</td>
+                        <td>ภาษาศาสตร์เชิงคลินิก</td>
+                        <td>Clinical Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209612</td>
+                        <td>ภาษา เพศสภาพ และเพศวิถี</td>
+                        <td>Language, Gender and Sexuality</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209615</td>
+                        <td>การสัมผัสภาษาภายในเอเชียตะวันออกเฉียงใต้</td>
+                        <td>Language Contact in Southeast Asia</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209616</td>
+                        <td>ภาษาศาสตร์เชิงประวัติวิทยาภาษาไทย</td>
+                        <td>Thai Historical Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209620</td>
+                        <td>ภาษาศาสตร์เชิงทดลอง</td>
+                        <td>Experimental Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209631</td>
+                        <td>กลสัทศาสตร์</td>
+                        <td>Acoustic Phonetics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209632</td>
+                        <td>นิติสัทศาสตร์</td>
+                        <td>Forensic Phonetics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209635</td>
+                        <td>วัจนภาษาเสียง</td>
+                        <td>Second Language Speech</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209641</td>
+                        <td>วิธีปฏิบัติภาคสนามทางภาษาศาสตร์</td>
+                        <td>Linguistics Field Methods</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209645</td>
+                        <td>ภาษาศาสตร์ปริชาน</td>
+                        <td>Cognitive Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209646</td>
+                        <td>แบบจำลองภาษาศาสตร์</td>
+                        <td>Linguistic Typology</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209655</td>
+                        <td>ภาษาศาสตร์เอเชียตะวันออกเฉียงใต้</td>
+                        <td>Southeast Asian Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209663</td>
+                        <td>การเรียนภาษา</td>
+                        <td>Language Acquisition</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209671</td>
+                        <td>การเขียนโปรแกรมเพื่อการประมวลผลภาษาธรรมชาติ</td>
+                        <td>Programming for Natural Language Processing</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209673</td>
+                        <td>ภาษาศาสตร์คลังข้อมูล</td>
+                        <td>Corpus Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209675</td>
+                        <td>ภาษาศาสตร์ภาษาตระกูลขร้า-ไท</td>
+                        <td>Kra-Dai Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209676</td>
+                        <td>ปรัชญาภาษาศาสตร์</td>
+                        <td>Computational Discourse</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209677</td>
+                        <td>แบบจำลองการเรียนรู้เชิงลึกสำหรับการประมวลผลภาษา</td>
+                        <td>Deep Learning Models in Natural Language Processing</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209678</td>
+                        <td>ระบบการประมวลผลภาษาธรรมชาติ</td>
+                        <td>Natural Language Processing Systems</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209682</td>
+                        <td>สัทศาสตร์และสัทวิทยาในความผิดปกติของการพูด</td>
+                        <td>Phonetics and Phonology in Speech Sound Disorder</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209683</td>
+                        <td>สถิติและวิธีเชิงปริมาณในการศึกษาภาษา</td>
+                        <td>Quantitative Methods in the Study of Language</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209703</td>
+                        <td>สัมมนาสัทศาสตร์และสัทวิทยา</td>
+                        <td>Seminar in Phonetics and Phonology</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209708</td>
+                        <td>ทักษะเชิงวิชาชีพสำหรับนักภาษาศาสตร์</td>
+                        <td>Professional Skills for Linguists</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209707</td>
+                        <td>โมเดลภาษาขนาดใหญ่</td>
+                        <td>Large Language Model</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209722</td>
+                        <td>ภาษาศาสตร์ในปริภูติดิจิทัล</td>
+                        <td>Linguistics in Digital Spaces</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209724</td>
+                        <td>สัมมนาทางสัมพันธิ์และอรรถศาสตร์</td>
+                        <td>Seminar in Syntax and Semantics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209752</td>
+                        <td>สัมมนาภาษาศาสตร์เชิงประวัติ</td>
+                        <td>Seminar in Historical Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209753</td>
+                        <td>สัมมนาภาษาศาสตร์สังคม</td>
+                        <td>Seminar in Sociolinguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209757</td>
+                        <td>เรื่องคัดเฉพาะทางภาษาศาสตร์</td>
+                        <td>Selected Topics in Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209764</td>
+                        <td>สัมมนาภาษาศาสตร์จิตวิทยา</td>
+                        <td>Seminar in Psycholinguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209770</td>
+                        <td>สัมมนาทางภาษาศาสตร์คอมพิวเตอร์</td>
+                        <td>Seminar in Computational Linguistics</td>
+                        <td>3 (3-0-9)</td>
+                    </tr>
+                    <tr>
+                        <td>2209772</td>
+                        <td>เอกัตศึกษา</td>
+                        <td>Individual Study</td>
+                        <td>3 (0-12-0)</td>
+                    </tr>
+                    <tr>
+                        <td>2209773</td>
+                        <td>การอ่านภาษาไทย</td>
+                        <td>Directed Reading</td>
+                        <td>3 (0-12-0)</td>
+                    </tr>
+                    <tr>
+                        <td>2209774</td>
+                        <td>การวิจัยภาษาไทย</td>
+                        <td>Directed Research</td>
+                        <td>3 (0-12-0)</td>
+                    </tr>
+                </table>
+                
+                <p><em>*สามารถอ่านรายละเอียดของแต่ละรายวิชาได้ที่หน้ารายวิชา</em></p>
+                
+                <h3>วิทยานิพนธ์ (แผน 1)</h3>
+                <p>สำหรับนิสิตแผน 1 แบบวิชาการ (ศึกษารายวิชาและทำวิทยานิพนธ์) ต้องลงทะเบียนวิทยานิพนธ์จำนวน 12 หน่วยกิต</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209811</td>
+                        <td>วิทยานิพนธ์ (แผน 1 แบบวิชาการ ศึกษารายวิชาและทำวิทยานิพนธ์)</td>
+                        <td>Thesis</td>
+                        <td>12 (0-48-0)</td>
+                    </tr>
+                </table>
+                
+                <p>สำหรับนิสิตแผน 1 แบบวิชาการ (วิทยานิพนธ์อย่างเดียว) ต้องลงทะเบียนวิทยานิพนธ์จำนวน 36 หน่วยกิต</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209816</td>
+                        <td>วิทยานิพนธ์ (แผน 1 แบบวิชาการ วิทยานิพนธ์อย่างเดียว)</td>
+                        <td>Thesis</td>
+                        <td>36 (0-144-0)</td>
+                    </tr>
+                </table>
+                
+                <h3>การค้นคว้าอิสระ (แผน 2)</h3>
+                <p>สำหรับนิสิตแผน 2 แบบวิชาชีพ ต้องศึกษาการค้นคว้าอิสระจำนวน 6 หน่วยกิต ดังนี้</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209777</td>
+                        <td>การค้นคว้าอิสระ</td>
+                        <td>Special Research</td>
+                        <td>6 (0-24-0)</td>
+                    </tr>
+                </table>
+                
+                <h3>การสอบประมวลความรู้ (แผน 2)</h3>
+                <p>สำหรับนิสิตแผน 2 แบบวิชาชีพ ต้องมีการสอบประมวลความรู้ โดยการประเมินเป็นแบบ S/U</p>
+                
+                <table>
+                    <tr>
+                        <th>รหัสรายวิชา</th>
+                        <th>ชื่อรายวิชา</th>
+                        <th>ชื่อรายวิชาภาษาอังกฤษ</th>
+                        <th>หน่วยกิต</th>
+                    </tr>
+                    <tr>
+                        <td>2209896</td>
+                        <td>การสอบประมวลความรู้</td>
+                        <td>Comprehensive Examination</td>
+                        <td>S/U</td>
+                    </tr>
+                </table>
+                
+                <h3 id="Plan">แผนการศึกษา</h3>
+                <h4>แผน 1 แบบวิชาการ (วิทยานิพนธ์อย่างเดียว)</h4>
+                
+                <table>
+                    <tr>
+                        <th>ปีการศึกษา</th>
+                        <th>รหัสรายวิชา</th>
+                        <th>รายวิชา</th>
+                        <th>หน่วยกิต</th>
+                        <th>หน่วยกิตรวม</th>
+                    </tr>
+                    <tr>
+                        <td>ปีที่ 1/ภาคต้น</td>
+                        <td>2209816</td>
+                        <td>วิทยานิพนธ์</td>
+                        <td>12</td>
+                        <td>12 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>ปีที่ 1/ภาคปลาย</td>
+                        <td>2209816</td>
+                        <td>วิทยานิพนธ์</td>
+                        <td>12</td>
+                        <td>12 หน่วยกิต</td>
+                    </tr>
+                </table>
+                
+                <h4>แผน 1 แบบวิชาการ (ศึกษารายวิชาและทำวิทยานิพนธ์)</h4>
+                
+                <table>
+                    <tr>
+                        <th>ปีการศึกษา</th>
+                        <th>รหัสรายวิชา</th>
+                        <th>รายวิชา</th>
+                        <th>หน่วยกิต</th>
+                        <th>หน่วยกิตรวม</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">ปีที่ 1/ภาคต้น</td>
+                        <td>2209511</td>
+                        <td>สัทวิทยา</td>
+                        <td>3</td>
+                        <td rowspan="2">12 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>2209521</td>
+                        <td>วากยสัมพันธ์</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>ปีที่ 1/ภาคปลาย</td>
+                        <td>2209811</td>
+                        <td>วิทยานิพนธ์</td>
+                        <td>6</td>
+                        <td>6 หน่วยกิต</td>
+                    </tr>
+                </table>
+                
+                <h4>แผน 2 แบบวิชาชีพ</h4>
+                
+                <table>
+                    <tr>
+                        <th>ปีการศึกษา</th>
+                        <th>รหัสรายวิชา</th>
+                        <th>รายวิชา</th>
+                        <th>หน่วยกิต</th>
+                        <th>หน่วยกิตรวม</th>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">ปีที่ 1/ภาคต้น</td>
+                        <td>2209511</td>
+                        <td>สัทวิทยา</td>
+                        <td>3</td>
+                        <td rowspan="2">12 หน่วยกิต</td>
+                    </tr>
+                    <tr>
+                        <td>2209521</td>
+                        <td>วากยสัมพันธ์</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>ปีที่ 2/ภาคปลาย</td>
+                        <td>2209896</td>
+                        <td>การสอบประมวลความรู้</td>
+                        <td>S/U</td>
+                        <td>S/U</td>
+                    </tr>
+                </table>
+                                
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+                <p>&copy; 2025 Linguistics Department. All rights reserved.</p>
+            </div>
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
